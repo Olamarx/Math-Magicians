@@ -9,11 +9,11 @@ In this project, I am to create a working calculator with React framework.
 - HTML
 - CSS
 - JavaScript
- - Rewact
+ - React
 
 ## Live Demo
 
-[Live Demo Link](https://olamarx.github.io/Math-Magicians/public)
+[Live Demo Link(Yet to be pulished)]()
 
 
 ## Getting Started
