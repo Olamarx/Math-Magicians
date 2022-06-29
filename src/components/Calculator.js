@@ -4,7 +4,7 @@ import Buttons from './Buttons';
 import Upper from './Upper';
 
 // eslint-disable-next-line react/prefer-stateless-function
-export default class App extends React.Component {
+export default class Calculator extends React.Component {
   constructor(props) {
     super(props);
     this.state = {};
