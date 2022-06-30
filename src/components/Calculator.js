@@ -1,44 +1,37 @@
-import React, { Component } from 'react';
+/* eslint-disable prefer-const */
+import React, { useState } from 'react';
 import './App.css';
 import KeyOperation from './keyOperation';
 import Upper from './Upper';
 import calculate from '../logic/calculate';
 
-export default class Calculator extends Component {
-  constructor(props) {
-    super(props);
-    this.clickEvent = this.clickEvent.bind(this);
-    this.state = {
-      total: 0,
-      operation: null,
-      next: null,
-    };
-  }
+const Calculator = () => {
+  const [stateObject, setStateObject] = useState({ total: 0, operation: null, next: null });
 
-  clickEvent(e) {
-    this.setState((state) => {
+  const clickEvent = (e) => {
+    setStateObject((state) => {
       const result = calculate(state, e.target.textContent);
       return result;
     });
-  }
+  };
 
-  render() {
-    const { next, operation } = this.state;
-    let { total } = this.state;
-    total = total === null && next ? '' : total;
-    return (
-      <div className="main-container">
-        <div className="container">
-          <Upper
-            operation={operation || ''}
-            total={total === null ? 0 : total}
-            next={next || ''}
-          />
-          <KeyOperation
-            clickEvent={this.clickEvent}
-          />
-        </div>
+  let { next, operation, total } = stateObject;
+  total = total === null && next != null ? '' : total;
+
+  return (
+    <div className="main-container">
+      <div className="container">
+        <Upper
+          operation={operation || ''}
+          total={total === null ? 0 : total}
+          next={next || ''}
+        />
+        <KeyOperation
+          clickEvent={clickEvent}
+        />
       </div>
-    );
-  }
-}
+    </div>
+  );
+};
+
+export default Calculator;
