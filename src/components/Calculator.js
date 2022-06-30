@@ -1,3 +1,4 @@
+/* eslint-disable prefer-const */
 import React, { useState } from 'react';
 import './App.css';
 import KeyOperation from './keyOperation';
@@ -14,9 +15,8 @@ const Calculator = () => {
     });
   };
 
-  const { next, operation } = stateObject;
-  let { total } = stateObject;
-  total = total === null && (!next) ? '' : total;
+  let { next, operation, total } = stateObject;
+  total = total === null && next != null ? '' : total;
 
   return (
     <div className="main-container">
