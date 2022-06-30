@@ -1,6 +1,3 @@
-/* eslint-disable no-self-assign */
-/* eslint-disable react/prop-types */
-/* eslint-disable react/no-typos */
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 

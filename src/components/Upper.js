@@ -1,5 +1,3 @@
-/* eslint-disable react/no-typos */
-/* eslint-disable react/prop-types */
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 
