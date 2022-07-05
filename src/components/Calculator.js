@@ -11,7 +11,7 @@ const Calculator = () => {
   const clickEvent = (e) => {
     setStateObject((state) => {
       const result = calculate(state, e.target.textContent);
-      return result;
+      return { ...state, ...result };
     });
   };
 
