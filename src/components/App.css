@@ -7,7 +7,7 @@
   font-size: 1rem;
 }
 
-body{
+body {
   min-height: 100vh;
   overflow-x: hidden;
   background: url("../images/bgi.png") no-repeat;
@@ -16,7 +16,6 @@ body{
   background-color: #00182c;
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-
 }
 
 html {
