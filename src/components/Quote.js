@@ -12,6 +12,18 @@ function Quotes() {
           <figure>
             <blockquote>
               <p>
+                In time of despair, make sure you know how to repair.
+              </p>
+            </blockquote>
+            <figcaption>
+              —Olaoluwa Owoeye Olamarx
+            </figcaption>
+
+          </figure>
+
+          <figure>
+            <blockquote>
+              <p>
                 Those who failed in the art of magic thought they
                 lacked good props, what they really lacked
                 was good practice.

@@ -3,12 +3,11 @@
 }
 
 .section article {
-  height: 80vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 70px;
+  gap: 30px;
 }
 
 .section article figure {
@@ -17,6 +16,7 @@
 
 .section article figure blockquote p {
   font-size: 15px;
+  margin-top: 50px;
 }
 
 .section article figure figcaption {
@@ -31,12 +31,11 @@
   }
 
   .section article {
-    height: 80vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 70px;
+    gap: 40px;
   }
 
   .section article figure {
