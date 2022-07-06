@@ -1,0 +1,51 @@
+.home {
+  width: 90%;
+  margin: 10% auto;
+  line-height: 30px;
+}
+
+.home h2 {
+  font-size: 1rem;
+  padding: 0 0 3rem 0;
+  color: orange;
+  margin-left: 10px;
+}
+
+.home p {
+  text-align: center;
+  color: #fff;
+}
+
+.home h3 {
+  font-size: 1rem;
+  text-align: end;
+  color: orange;
+  margin-top: 30px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .home {
+    width: 70%;
+    margin: 5% auto;
+  }
+
+  .home h2 {
+    font-size: 3rem;
+    padding: 0 0 3rem 0;
+    color: orange;
+    margin-left: 30px;
+  }
+
+  .home p {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #fff;
+  }
+
+  .home h3 {
+    font-size: 2rem;
+    text-align: end;
+    color: orange;
+    margin-top: 30px;
+  }
+}

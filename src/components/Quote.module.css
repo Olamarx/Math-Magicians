@@ -1,0 +1,54 @@
+.section {
+  height: 86vh;
+}
+
+.section article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.section article figure {
+  width: 300px;
+}
+
+.section article figure blockquote p {
+  font-size: 15px;
+  margin-top: 50px;
+}
+
+.section article figure figcaption {
+  color: orange;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+@media only screen and (min-width: 1200px) {
+  .section {
+    height: 86vh;
+  }
+
+  .section article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+
+  .section article figure {
+    width: 500px;
+  }
+
+  .section article figure blockquote p {
+    font-size: 25px;
+  }
+
+  .section article figure figcaption {
+    color: orange;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+}

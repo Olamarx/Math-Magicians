@@ -7,13 +7,23 @@
   font-size: 1rem;
 }
 
+body {
+  min-height: 100vh;
+  overflow-x: hidden;
+  background: url("../images/bgi.png") no-repeat;
+  background-size: cover;
+  position: relative;
+  background-color: #00182c;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 html {
   box-sizing: border-box;
 }
 
 .main-container {
-  width: 100vw;
-  height: 100vh;
+  height: 85vh;
   display: flex;
   align-items: center;
   justify-content: center;

@@ -1,0 +1,40 @@
+.articleCalculator {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.articleCalculator h2 {
+  width: 100%;
+  margin-top: 25px;
+  margin-bottom: 0;
+  font-size: 30px;
+  color: orange;
+}
+
+.articleCalculator > div {
+  width: 100%;
+}
+
+@media only screen and (min-width: 1200px) {
+  .articleCalculator {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: unset;
+    flex-direction: row;
+  }
+
+  .articleCalculator h2 {
+    width: 40%;
+    margin-top: 80px;
+    font-size: 40px;
+    color: orange;
+  }
+
+  .articleCalculator > div {
+    width: 60%;
+  }
+}
