@@ -3,12 +3,12 @@
   justify-content: space-between;
   width: 100%;
   align-items: center;
-  height: 30px;
+  height: 50px;
   background-color: aqua;
 }
 
 .nav h1 {
-  font-size: 30px;
+  font-size: 25px;
   margin-left: 20px;
   color: orange;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
