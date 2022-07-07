@@ -1,5 +1,13 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
+## Mockup of the Site
+<p align="center">
+  <img
+  src="./src/images/center.png"
+  alt="Mockup Version"
+  >
+</p>
+
 # Math Magician Project
 
 In this project, I am to create a working calculator with React framework.
@@ -11,7 +19,7 @@ In this project, I am to create a working calculator with React framework.
 
 ## Live Demo
 
-[Live Demo Link(Yet to be pulished)]()
+[Live Demo Link(Vercel)](https://math-magician.vercel.app/)
 
 
 ## Getting Started
